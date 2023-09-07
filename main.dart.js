@@ -43506,7 +43506,7 @@ TA(a,b,c){return this.tY(a,!0,b,c)},
 amt(a,b,c,d){var s=0,r=A.C(t.T),q,p=2,o,n,m,l,k,j,i,h
 var $async$tY=A.x(function(e,f){if(e===1){o=f
 s=p}while(true)switch(s){case 0:p=4
-n=(b?"https://admin.foodhost.us:8000/api/":"http://admin.foodhost.us:8443/api/")+c
+n=(b?"https://admin.foodhost.us:8000/api/":"https://user.foodhost.us:4443/dev/api/")+c
 m=B.V.xo(d,null)
 s=7
 return A.D(A.aXS(A.ht(n,0,null),m,A.Ln("utf-8"),a).ud(0,B.iN),$async$tY)
@@ -43571,7 +43571,7 @@ afM(a,b,c,d,e){return this.n2(a,b,null,c,d,e)},
 afN(a,b,c,d,e,f){var s=0,r=A.C(t.T),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$n2=A.x(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
-n=(d?"https://admin.foodhost.us:8000/api/":"http://admin.foodhost.us:8443/api/")+b
+n=(d?"https://admin.foodhost.us:8000/api/":"https://user.foodhost.us:4443/dev/api/")+b
 m=A.aFW(f,A.ht(n,0,null))
 m.r.P(0,a)
 e.V(0,new A.a09(m))
