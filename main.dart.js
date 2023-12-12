@@ -44147,7 +44147,7 @@ z0(a,b,c){return this.pU(a,!0,b,c)},
 ane(a,b,c,d){var s=0,r=A.B(t.T),q,p=2,o,n,m,l,k,j,i,h
 var $async$pU=A.x(function(e,f){if(e===1){o=f
 s=p}while(true)switch(s){case 0:p=4
-n=(b?"https://admin.foodhost.us:8000/api/":"https://user.foodhost.us:4443/dev/api/")+c
+n=(b?"https://admin.foodhost.us:8443/api/":"https://user.foodhost.us:8443/api/")+c
 A.d8("url: "+A.i(n))
 m=B.O.t9(d,null)
 s=7
@@ -44185,7 +44185,7 @@ U7(a,b,c){return this.u3(a,!0,b,c)},
 ann(a,b,c,d){var s=0,r=A.B(t.T),q,p=2,o,n,m,l,k,j,i,h
 var $async$u3=A.x(function(e,f){if(e===1){o=f
 s=p}while(true)switch(s){case 0:p=4
-n=(b?"https://admin.foodhost.us:8000/api/":"https://user.foodhost.us:4443/dev/api/")+c
+n=(b?"https://admin.foodhost.us:8443/api/":"https://user.foodhost.us:8443/api/")+c
 m=B.O.t9(d,null)
 s=7
 return A.D(A.aZR(A.hC(n,0,null),m,A.Mc("utf-8"),a).uj(0,B.j_),$async$u3)
@@ -44216,7 +44216,7 @@ rY(a,b,c){return this.aii(a,b,c)},
 aii(a,b,c){var s=0,r=A.B(t.T),q,p=2,o,n,m,l,k,j,i,h
 var $async$rY=A.x(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:p=4
-n="https://admin.foodhost.us:8000/api/"+b
+n="https://admin.foodhost.us:8443/api/"+b
 m=B.O.t9(c,null)
 s=7
 return A.D(A.aMp(A.hC(n,0,null),m,A.Mc("utf-8"),a).uj(0,B.j_),$async$rY)
@@ -44250,7 +44250,7 @@ EI(a,b,c,d){return this.n1(a,b,null,!0,c,d)},
 agE(a,b,c,d,e,f){var s=0,r=A.B(t.T),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$n1=A.x(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
-n=(d?"https://admin.foodhost.us:8000/api/":"https://user.foodhost.us:4443/dev/api/")+b
+n=(d?"https://admin.foodhost.us:8443/api/":"https://user.foodhost.us:8443/api/")+b
 m=A.aHV(f,A.hC(n,0,null))
 m.r.R(0,a)
 e.W(0,new A.a10(m))
@@ -44292,7 +44292,7 @@ rE(a,b,c,d,e){return this.agF(a,b,c,d,e)},
 agF(a,b,c,d,e){var s=0,r=A.B(t.T),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$rE=A.x(function(f,a0){if(f===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
-n="https://admin.foodhost.us:8000/api/"+b
+n="https://admin.foodhost.us:8443/api/"+b
 m=A.aHV(e,A.hC(n,0,null))
 m.r.R(0,a)
 d.W(0,new A.a0Z(m))
