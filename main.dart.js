@@ -44234,7 +44234,7 @@ z2(a,b,c){return this.nE(a,!0,b,c)},
 anu(a,b,c,d){var s=0,r=A.B(t.T),q,p=2,o,n,m,l,k,j,i,h
 var $async$nE=A.w(function(e,f){if(e===1){o=f
 s=p}while(true)switch(s){case 0:p=4
-n=(b?"https://admin.foodhost.us:8443/api/":"https://user.foodhost.us:8443/api/")+c
+n=(b?"https://admin-prod.foodhost.us/api/":"https://api.foodhost.us/api/")+c
 A.cl("url: "+A.i(n))
 m=B.N.tb(d,null)
 s=7
@@ -44272,7 +44272,7 @@ Um(a,b,c){return this.u4(a,!0,b,c)},
 anD(a,b,c,d){var s=0,r=A.B(t.T),q,p=2,o,n,m,l,k,j,i,h
 var $async$u4=A.w(function(e,f){if(e===1){o=f
 s=p}while(true)switch(s){case 0:p=4
-n=(b?"https://admin.foodhost.us:8443/api/":"https://user.foodhost.us:8443/api/")+c
+n=(b?"https://admin-prod.foodhost.us/api/":"https://api.foodhost.us/api/")+c
 m=B.N.tb(d,null)
 A.cl("url: "+A.i(n))
 A.cl("requestJson: "+A.i(m))
@@ -44305,7 +44305,7 @@ t_(a,b,c){return this.aiC(a,b,c)},
 aiC(a,b,c){var s=0,r=A.B(t.T),q,p=2,o,n,m,l,k,j,i,h
 var $async$t_=A.w(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:p=4
-n="https://admin.foodhost.us:8443/api/"+b
+n="https://admin-prod.foodhost.us/api/"+b
 m=B.N.tb(c,null)
 s=7
 return A.D(A.aMD(A.hC(n,0,null),m,A.Mj("utf-8"),a).uk(0,B.j2),$async$t_)
@@ -44339,7 +44339,7 @@ EI(a,b,c,d){return this.n3(a,b,null,!0,c,d)},
 ah0(a,b,c,d,e,f){var s=0,r=A.B(t.T),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$n3=A.w(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
-n=(d?"https://admin.foodhost.us:8443/api/":"https://user.foodhost.us:8443/api/")+b
+n=(d?"https://admin-prod.foodhost.us/api/":"https://api.foodhost.us/api/")+b
 m=A.aIa(f,A.hC(n,0,null))
 m.r.R(0,a)
 e.X(0,new A.a18(m))
@@ -44381,7 +44381,7 @@ rG(a,b,c,d,e){return this.ah1(a,b,c,d,e)},
 ah1(a,b,c,d,e){var s=0,r=A.B(t.T),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$rG=A.w(function(f,a0){if(f===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
-n="https://admin.foodhost.us:8443/api/"+b
+n="https://admin-prod.foodhost.us/api/"+b
 m=A.aIa(e,A.hC(n,0,null))
 m.r.R(0,a)
 d.X(0,new A.a16(m))
