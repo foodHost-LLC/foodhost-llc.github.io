@@ -16,15 +16,14 @@
   -->
   <base href="/">
 
-  <meta charset="UTF-8" />
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-  <meta name="description" content="Welcome to the Admin Portal for foodHost Restaurants." />
-  <meta name="author" content="Okonkwo Clovis">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
 
   <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Admin Portal">
+  <meta name="apple-mobile-web-app-title" content="admin_portal">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
@@ -32,41 +31,8 @@
 
   <title>Admin Portal</title>
   <link rel="manifest" href="manifest.json">
-<!--  added by me for map support-->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgMvGHmOfjQW8rIdtsGnrxWD5g-btnKg4"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgMvGHmOfjQW8rIdtsGnrxWD5g-btnKg4&libraries=drawing"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@googlemaps/markerclusterer@2.5.3/dist/index.umd.min.js"></script>
-
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3073419906";
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
 </head>
 <body>
-
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        // insert renderer
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine({ renderer:"html" }).then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
-  </script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
-
-
-
-
-
-
