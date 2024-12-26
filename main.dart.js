@@ -8559,7 +8559,7 @@ var $async$aIY=A.t(function(a,b){if(a===1)return A.u(b,r)
 while(true)switch(s){case 0:if($.X==null)A.at6()
 $.X.toString
 s=2
-return A.B($.aZ_().Cc(0,"assets/.env"),$async$aIY)
+return A.B($.aZ_().Cc(0,"dotenv"),$async$aIY)
 case 2:q=A.b3W()
 if($.X==null)A.at6()
 p=$.X
