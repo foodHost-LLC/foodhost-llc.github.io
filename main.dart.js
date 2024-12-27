@@ -29235,7 +29235,7 @@ return s},
 a8K(){var s=0,r=A.x(t.H)
 var $async$a8K=A.t(function(a,b){if(a===1)return A.u(b,r)
 while(true)switch(s){case 0:s=2
-return A.A($.aJK().Cc(0,".env"),$async$a8K)
+return A.A($.aJK().Cc(0,"./dotenv"),$async$a8K)
 case 2:return A.v(null,r)}})
 return A.w($async$a8K,r)},
 T5(a){var s=t.w
